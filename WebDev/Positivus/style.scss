@@ -1,0 +1,72 @@
+@import 'obnulenie.css';
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+body {
+    font-family: "Space Grotesk";
+}
+
+
+//-----------HEADER-----------//
+
+header {
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    .headerContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .headerContainer_logo {
+            display: flex;
+            align-items: center;
+            img:first-child {
+                margin-right: 13px;
+            }
+
+        }
+        .headerContainer_menuContainer {
+            margin: 0 40px;
+            .headerContainer_menuContainer__menu {
+                align-items: center;
+                display: flex;
+                li {
+                    margin-right: 40px;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    a {
+                        font-size: 20px;
+                        color: #000;
+                        line-height: 28px;
+                        transition: 0.1s;
+                        &:hover {
+                            color: #B9FF66;
+                            transition: 0.1s;
+                        }
+                    }     
+                }
+                .headerContainer_buttonContainer {
+                    padding: 20px 35px;
+                    border:  #000 solid 1px;
+                    border-radius: 14px;
+                    transition: 0.2s;
+                    a {
+                        font-size: 20px;
+                        color: #000;
+                        line-height: 28px;
+                        transition: 0.2s;
+                    }
+                    &:hover {
+                        background: #191A23;
+                        transition: 0.2s;
+                        a {
+                            color: white;
+                            transition: 0.2s;
+                        }
+                    }
+                }      
+            }
+        }
+    }
+}

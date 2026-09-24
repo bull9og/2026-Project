@@ -1,0 +1,66 @@
+@import 'obnulenie.css';
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+body {
+  font-family: "Space Grotesk";
+}
+
+header {
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+header .headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .headerContainer .headerContainer_logo {
+  display: flex;
+  align-items: center;
+}
+header .headerContainer .headerContainer_logo img:first-child {
+  margin-right: 13px;
+}
+header .headerContainer .headerContainer_menuContainer {
+  margin: 0 40px;
+}
+header .headerContainer .headerContainer_menuContainer .headerContainer_menuContainer__menu {
+  align-items: center;
+  display: flex;
+}
+header .headerContainer .headerContainer_menuContainer .headerContainer_menuContainer__menu li {
+  margin-right: 40px;
+}
+header .headerContainer .headerContainer_menuContainer .headerContainer_menuContainer__menu li:last-child {
+  margin-right: 0;
+}
+header .headerContainer .headerContainer_menuContainer .headerContainer_menuContainer__menu li a {
+  font-size: 20px;
+  color: #000;
+  line-height: 28px;
+  transition: 0.1s;
+}
+header .headerContainer .headerContainer_menuContainer .headerContainer_menuContainer__menu li a:hover {
+  color: #B9FF66;
+  transition: 0.1s;
+}
+header .headerContainer .headerContainer_menuContainer .headerContainer_menuContainer__menu .headerContainer_buttonContainer {
+  padding: 20px 35px;
+  border: #000 solid 1px;
+  border-radius: 14px;
+  transition: 0.2s;
+}
+header .headerContainer .headerContainer_menuContainer .headerContainer_menuContainer__menu .headerContainer_buttonContainer a {
+  font-size: 20px;
+  color: #000;
+  line-height: 28px;
+  transition: 0.2s;
+}
+header .headerContainer .headerContainer_menuContainer .headerContainer_menuContainer__menu .headerContainer_buttonContainer:hover {
+  background: #191A23;
+  transition: 0.2s;
+}
+header .headerContainer .headerContainer_menuContainer .headerContainer_menuContainer__menu .headerContainer_buttonContainer:hover a {
+  color: white;
+  transition: 0.2s;
+}/*# sourceMappingURL=style.css.map */
