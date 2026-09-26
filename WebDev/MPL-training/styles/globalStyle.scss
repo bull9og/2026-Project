@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    padding: 40px 40px;
+}
+
+/*---!!COLORS!!---*/
+
+[class*='Accent1'] {
+    color: #485C11;
+}
+[class*='Accent2'] {
+    color: #DFECC6;
+}
+[class*='Accent3'] {
+    color: #8E9C78;
+}
+[class*='Accent4'] {
+    color: #000000;
+}
+[class*='Accent5'] {
+    color: #6F6F6F;
+}
+[class*='Accent6'] {
+    color: #929292;
+}
+
+/*---!!BACKGROUNDS!!---*/
+
+[class*='Background1'] {
+    color: #FFFFFF;
+}
+
+/*---!!TEXT!!---*/
+
+[class*='Headline'] {
+    color: #000000;
+}
+[class*='Paragraph'] {
+    color: #6F6F6F;
+}
+[class*='Captions'] {
+    color: #485C11;
+}
+[class*='Link'] {
+    color: #000000;
+}
+[class*='OnAccent1'] {
+    color: #FFFFFF;
+}
+
+/*---!!TEXT-PARAMETERS!!---*/
+
+[class*='Heading1'] {
+    font-size: 60px;
+    line-height: 90%;
+    letter-spacing: -3%;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+[class*='Heading2'] {
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: -3%;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+[class*='Heading3'] {
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -3%;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+[class*='Display'] {
+    font-size: 160px;
+    line-height: 90%;
+    letter-spacing: -4.25%;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+[class*='DisplayStatistics'] {
+    font-size: 80px;
+    line-height: 100%;
+    letter-spacing: -4%;
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+[class*='Paragraph'] {
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: -0.5%;
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+[class*='Link'] {
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -2.5%;
+    font-family: "DM Sans";
+    font-weight: 1000;
+    font-style: normal;
+}
+[class*='Captions'] {
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: -1%;
+    font-family: "Roboto Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*---!!BUTTONS!!---*/
+
+[class*='Captions1'] {
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -2.5%;
+    font-family: "DM Sans";
+    font-weight: 1000;
+    color: #000;
+    font-style: normal;
+    background: #DFECC6;
+    gap: 14;
+    padding: 14px 22px;
+    border-radius: 1000px;
+    transition: 0.1s;
+    &:hover {
+        color: #fff;
+        background: #8E9C78;
+        transition: 0.1s;
+    }
+}
+[class*='Captions2'] {
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -2.5%;
+    font-family: "DM Sans";
+    font-weight: 1000;
+    color: #fff;
+    font-style: normal;
+    background: #485C11;
+    gap: 14;
+    padding: 14px 22px;
+    border-radius: 1000px;
+    transition: 0.1s;
+    &:hover {
+        color: #fff;
+        background: #8E9C78;
+        transition: 0.1s;
+    }
+}
+[class*='Arrow1'] {
+    transition: 0.1s;
+    &:hover {
+        transition: 0.1s;
+    }
+}
+[class*='Arrow2'] {
+    transition: 0.1s;
+    &:hover {
+        transition: 0.1s;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
